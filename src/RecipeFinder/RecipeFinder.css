@@ -3,30 +3,30 @@
 .recipe-finder {
     text-align: center;
     justify-content: center;
-    padding: 20px;
-    max-width: 400px;
+    padding: 10px;
 }
 
 .search-bar {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 input[type="text"] {
-    padding: 8px;
+    padding: 12px;
     width: 70%;
     border: 1px solid #ccc;
     border-radius: 4px;
 }
 
 button {
-    padding: 8px 16px;
-    background-color: #007bff;
+    padding: 7px 10px;
+    background-color:#007bff;
     color: white;
-    border: none;
-    border-radius: 4px;
     cursor: pointer;
 }
 
+button:hover{
+    background-color: #037af9ef;
+}
 .recipe-list {
     list-style: none;
     display: grid;
