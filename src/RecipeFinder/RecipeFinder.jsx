@@ -25,7 +25,7 @@ const RecipeFinder = () => {
         type="text"
         value={query}
         onChange={(e) => setQuery(e.target.value)}
-        placeholder="Search for recipes..."
+        placeholder="Search for recipes.."
       />
       <button onClick={searchRecipes}>Search</button>
     </div>
